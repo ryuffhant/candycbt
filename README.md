@@ -26,6 +26,7 @@ Informasi lebih lanjut, silahkan klik [tautan](http://candycbt.id/) berikut ini.
     - [VC Redist](#vc-redist)
     - [Net.Framework](#netframework)
   - [CandyCBT](#instalasi-candycbt)
+    - [User Ahli](#clone-git)
 * [Troubleshooting](#troubleshooting)
   - [Pada Laragon](#pada-laragon)
   - [Pada CandyCBT](#pada-candycbt)
@@ -152,8 +153,36 @@ Untuk MySQL versi 8.0.17 masih terdapat beberapa bugs
 sehingga butuh penangan khusus
 ```
 
----
+#### Clone Git
+Instalasi `CandyCBT` dapat dilakukan dengan `clone repository` dengan spesifikasi tertentu. Terdapat 2 versi `branch` berbeda pada repository ini :
+- [Snapshot](https://github.com/ryuffhant/candycbt/tree/snapshot)
+- [Release Candidate](https://github.com/ryuffhant/candycbt/tree/rc)
 
+`PENTING UNTUK DIPAHAMI!!` branch `snapshot` hasil rebase dari `LaraCandy2.5` sedangkan untuk versi `Release Candidate` adalah `salinan` berdasar sumber [pajarsidikn](https://github.com/candycbt/tree/master) commit b3b2834 terakhir dari [toSheewaOgi](https://github.com/toSheewaOgi).
+
+Untuk instalasi CandyCBT dari `repository` ini dengan memilih salah satu `branch` yang tersedia adalah :
+- Windows
+  - install [git](https://github.com/git-for-windows/git/releases/) pada windows
+  - setelah instalasi selesai, buka `CMD` atau `Command Prompt`
+  - arahkan pada direktori folder `www` dalam `xampp` atau `laragon`
+  - masukan perintah
+  ```console
+  git clone --single-branch --branch <nama_branch> <url_repo>
+  ```
+- Linux (debian family)
+  - install paket `git` melalui `paket manejer` atau `bash terminal`
+    ```sh
+    foo@bar:~$ sudo apt install git
+    ```
+  - arahkan pada direktori `www` di linux, lalu masukan perintah
+    ```sh
+    foo@bar:~$ git clone --single-branch --branch <nama_branch> <url_repo>
+    ```
+  - jika direktori `www` berada diluar direktori `$HOME` pengguna, tambahkan `sudo` saat proses cloning diatas
+
+Pada `<nama_branch>` tersebut diganti dengan nama branch yang tersedia di repository ini yaitu `snapshot` untuk branch *Snapshot* dan `rc` untuk *release candidate*, keduanya ditulis dalam huruf `kecil`. Untuk `<url_repo>` diganti dengan alamat repository yaitu `https://github.com/ryuffhant/candycbt.git`
+
+---
 ## TROUBLESHOOTING
 ### Pada Laragon
 `membersihkan database` hapus semua *file* atau *folder* yang tersimpan dalam folder `laragon\data\*` maupun di `laragon\tmp\xdebug\*` juga `laragon\tmp\*` dalam keadaan aplikasi laragon `dihentikan`.
