@@ -314,6 +314,7 @@ Gunakan MySQL versi 5.7.27 atau mariaDB 10.4.8
   * Debugger
   * README Development
   * Most features development on Laragon Component
+  * Release Development
 
 ---
 ## LICENSE
