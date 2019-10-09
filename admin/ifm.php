@@ -812,7 +812,7 @@ f00bar;
 $i18n["en"] = json_decode( $i18n["en"], true );
 
 		$this->i18n = $i18n;
-
+		
 		if( in_array( $this->config['language'], array_keys( $this->i18n ) ) )
 			$this->l = $this->i18n[$this->config['language']];
 		else
@@ -884,34 +884,34 @@ table.dataTable{clear:both;margin-top:6px !important;margin-bottom:6px !importan
   }
 }
 */
-
+ 
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
-
+ 
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
-
+ 
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-
+     
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
-
+ 
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
   margin-left: .2em;
-
+ 
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
-
+ 
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1443,8 +1443,8 @@ l=0;for(h=f.length;l<h;l++)if(c=f[l],b.isArray(c))q(d,c);else{g=e="";switch(c){c
                         window.ace[key] = a[key];
                 });
             })();
-
-
+        
+			
 			/**
  * IFM constructor
  *
@@ -2230,7 +2230,7 @@ function IFM( params ) {
 
 	/**
 	 * Copy or moves a file
-	 *
+	 * 
 	 * @params {string} sources - array of fileCache items
 	 * @params {string} destination - target directory
 	 * @params {string} action - action (copy|move)
@@ -2281,7 +2281,7 @@ function IFM( params ) {
 			if( e.target.id == 'buttonExtract' ) {
 				e.preventDefault();
 				var loc = form.elements.extractTargetLocation.value;
-				self.extractFile( filename, ( loc == "custom" ? form.elements.extractCustomLocation.value : loc ) );
+				self.extractFile( filename, ( loc == "custom" ? form.elements.extractCustomLocation.value : loc ) ); 
 				self.hideModal();
 			} else if( e.target.id == 'buttonCancel' ) {
 				e.preventDefault();
@@ -2340,7 +2340,7 @@ function IFM( params ) {
 		form.elements.files.addEventListener( 'change', function( e ) {
 			if( e.target.files.length > 1 )
 				form.elements.newfilename.readOnly = true;
-			else
+			else 
 				form.elements.newfilename.readOnly = false;
 		});
 		form.addEventListener( 'click', function( e ) {
@@ -2853,7 +2853,7 @@ function IFM( params ) {
 		if( ! highlightedItem ) {
 			if( document.activeElement.classList.contains( 'ifmitem' ) )
 				highlight( document.activeElement.parentElement.parentElement );
-			else
+			else 
 				highlight( document.getElementById( 'filetable' ).tBodies[0].firstElementChild );
 		} else  {
 			var newItem = ( direction=="next" ? highlightedItem.nextElementSibling : highlightedItem.previousElementSibling );
@@ -3098,7 +3098,7 @@ function IFM( params ) {
 					break;
 				case ' ':
 				case 'Enter':
-					if( element.children[0].children[0] == document.activeElement ) {
+					if( element.children[0].children[0] == document.activeElement ) { 
 						if( e.key == 'Enter' && element.classList.contains( 'isDir' ) ) {
 							e.preventDefault();
 							e.stopPropagation();
@@ -3160,7 +3160,7 @@ function IFM( params ) {
 			}
 		});
 	};
-
+	
 	this.initLoadTemplates = function() {
 		// load the templates from the backend
 		$.ajax({
@@ -3200,7 +3200,7 @@ function IFM( params ) {
 			}
 		});
 	};
-
+	
 	this.initApplication = function() {
 		self.rootElement.innerHTML = Mustache.render(
 				self.templates.app,
@@ -3272,14 +3272,14 @@ function IFM( params ) {
 			document.addEventListener( 'dragstart', function( e ) {
 				var selectedItems = document.getElementsByClassName( 'selectedItem' );
 				var data;
-				if( selectedItems.length > 0 )
+				if( selectedItems.length > 0 ) 
 					data = self.fileCache.filter(
 							x => self.inArray(
 								x.guid,
 								[].slice.call( selectedItems ).map( function( e ) { return e.dataset.id; } )
 								)
 							);
-				else
+				else 
 					data = self.fileCache.find( x => x.guid === e.target.dataset.id );
 				e.dataTransfer.setData( 'text/plain', JSON.stringify( data ) );
 				var dragImage = document.createElement( 'div' );
@@ -3326,7 +3326,7 @@ function IFM( params ) {
 				}
 			});
 		}
-
+		
 		// handle keystrokes
 		document.onkeydown = self.handleKeystrokes;
 
@@ -3436,8 +3436,7 @@ f00bar;
 		if ( $this->checkAuth() ) {
 			// go to our root_dir
 			if( ! is_dir( realpath( $this->config['root_dir'] ) ) || ! is_readable( realpath( $this->config['root_dir'] ) ) )
-//				die( "Cannot access root_dir.");
-					mkdir('../files', 0777, true);
+				die( "Cannot access root_dir.");
 			else
 				chdir( realpath( $this->config['root_dir'] ) );
 			$this->mode = $mode;
@@ -3488,7 +3487,7 @@ f00bar;
 			$item["type"] = "dir";
 			if( $name == ".." )
 				$item["icon"] = "icon icon-up-open";
-			else
+			else 
 				$item["icon"] = "icon icon-folder-empty";
 		} else {
 			$item["type"] = "file";
@@ -3807,7 +3806,7 @@ f00bar;
 		else {
 			if( ! is_file( $d['filename' ] ) )
 				http_response_code( 404 );
-			else
+			else 
 				$this->fileDownload( array( "file" => $d['filename'], "forceDL" => $forceDL ) );
 		}
 	}
@@ -3852,7 +3851,7 @@ f00bar;
 				} else {
 					$this->jsonResponse( array( "status" => "OK","message" => $this->l['extract_success'] ) );
 				}
-			}
+			} 
 			if( $restoreIFM ) {
 				if( $tmpSelfChecksum != hash_file( "sha256", __FILE__ ) ) {
 					rewind( $tmpSelfContent );
@@ -4027,7 +4026,7 @@ f00bar;
 			if( ! $this->isFilenameValid( $file ) ) {
 				$this->jsonResponse( array( "status" => "ERROR", "message" => $this->l['invalid_filename'] ) );
 				exit( 1 );
-			} else
+			} else 
 				array_push( $filenames, realpath( $file ) );
 		switch( $d['format'] ) {
 			case "zip":
@@ -4198,7 +4197,7 @@ f00bar;
 
 	private function loginForm($loginFailed=false) {
 		$err = "";
-		if( $loginFailed )
+		if( $loginFailed ) 
 			$err = '<div class="alert alert-danger">'.$this->l['login_failed'].'</div>';
 		$this->getHTMLHeader();
 		$html = str_replace( "{{error}}", $err, $this->templates['login'] );
@@ -4442,7 +4441,7 @@ f00bar;
  * License: This project is provided under the terms of the MIT LICENSE
  * http://github.com/misterunknown/ifm/blob/master/LICENSE
  * =======================================================================
- *
+ * 
  * archive class
  *
  * This class provides support for various archive types for the IFM. It can
@@ -4523,7 +4522,7 @@ class IFMArchive {
 		$tmpf = substr( $out, 0, strlen( $out ) - strlen( $t ) ) . "tar";
 		$a = new PharData( $tmpf );
 
-		try {
+		try { 
 			if( ! is_array( $src ) )
 				$src = array( $src );
 
@@ -4531,7 +4530,7 @@ class IFMArchive {
 				if( is_dir( $s ) )
 					self::addFolder( $a, $s );
 				elseif( is_file( $s ) )
-					$a->addFile( $s, substr( $s, strlen( dirname( $s ) ) +1 ) );
+					$a->addFile( $s, substr( $s, strlen( dirname( $s ) ) +1 ) ); 
 			switch( $t ) {
 			case "tar.gz":
 				$a->compress( Phar::GZ );

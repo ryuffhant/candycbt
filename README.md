@@ -158,7 +158,7 @@ Instalasi `CandyCBT` dapat dilakukan dengan `clone repository` dengan spesifikas
 - [Snapshot](https://github.com/ryuffhant/candycbt/tree/snapshot)
 - [Release Candidate](https://github.com/ryuffhant/candycbt/tree/rc)
 
-`PENTING UNTUK DIPAHAMI!!` branch `snapshot` hasil rebase dari `LaraCandy2.5` sedangkan untuk versi `Release Candidate` adalah `salinan` berdasar sumber [pajarsidikn](https://github.com/candycbt/tree/master) commit [b3b2834](https://github.com/pajarsidikn/candycbt/commit/b3b28342bedc9088664f19aa2658401e9101fbcf) terakhir dari [toSheewaOgi](https://github.com/toSheewaOgi).
+`PENTING UNTUK DIPAHAMI!!` branch `snapshot` hasil rebase dari `LaraCandy2.5` sedangkan untuk versi `Release Candidate` adalah `salinan` berdasar sumber [pajarsidikn](https://github.com/candycbt/tree/master) commit [688ab8d](https://github.com/pajarsidikn/candycbt/commit/688ab8d4d9656713ffc7bb894b684cf747799a8d) terakhir dari [toSheewaOgi](https://github.com/toSheewaOgi).
 
 Untuk instalasi CandyCBT dari `repository` ini dengan memilih salah satu `branch` yang tersedia adalah :
 - Windows

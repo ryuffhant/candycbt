@@ -1,7 +1,0 @@
-instalasi harus dari awal jadi hapus database dari versi sebelumnya
-setting nama database menjadi cbtcandy25 pada file config/config.database.php
-silahkan lakukan tahapan instalasi,,
-KLIK BUAT
-LALU IMPORT
-
-semoga bermanfaat 
