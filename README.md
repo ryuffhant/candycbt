@@ -142,7 +142,7 @@ Agar laragon dapat berfungsi dengan optimal maka dibutuhkan `runtime environment
 ### Instalasi CandyCBT
 ketika semua program yang dibutuhkan diatas seperti `laragon` serta paket pendukung `VCC++ Redist` ataupun `Net.Framework` berhasil di pasang pada sistem, saatnya sekarang untuk mengapilkasikan `CandyCBT` pada direktori `www` di laragon.
 
-Pemasangannya sederhana, untuk versi `snapshot` atau `nightly` cukup unduh paket `ZIP` candycbt melaui tombol `Clone or download` pada tampilan repository candycbt, lalu pilih `Download as ZIP` dengan otomatis akan mengunduh paket berektensi zip atau gunakan [tautan](https://github.com/ryuffhant/candycbt/archive/rc.zip) berikut. Sedangkan untuk versi `rilis` CandyCBT paket `ZIP` tersebut dapat ditemukan [di sini](#releases)
+Pemasangannya sederhana, untuk versi `snapshot` atau `nightly` cukup unduh paket `ZIP` candycbt melaui tombol `Clone or download` pada tampilan repository candycbt, lalu pilih `Download as ZIP` dengan otomatis akan mengunduh paket berektensi zip atau gunakan [tautan](https://github.com/ryuffhant/candycbt/archive/rc.zip) berikut. Sedangkan untuk versi `rilis` CandyCBT paket `ZIP` tersebut dapat ditemukan [di sini](https://github.com/ryuffhant/candycbt/releases)
 
 Saat paket `ZIP` berhasil di unduh, `extract` semua konten didalamnya kemudian pindahkan hasil konten yang telah di `extract` kedalam folder `www` pada folder `laragon` lanjutkan dengan `start all` pada laragon dan cobalah akses [localhost](http://localhost) atau [localhost:8080](http://localhost:8080) pada browser.
 
