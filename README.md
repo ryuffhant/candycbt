@@ -150,9 +150,11 @@ Saat paket `ZIP` berhasil di unduh, `extract` semua konten didalamnya kemudian p
 
 ```
 Untuk MySQL versi 8.0.17 masih terdapat beberapa bugs
-sehingga butuh penangan khusus
+sehingga butuh penangan khusus. Gunakan MySQL versi 8.0.15
+jika tetap ingin menggunakan MySQL versi 8.x
 ```
 
+[Download](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.15-winx64.zip) MySQL versi 8.0.15 untuk Windows x64
 #### Clone Git
 Instalasi `CandyCBT` dapat dilakukan dengan `clone repository` dengan spesifikasi tertentu. Terdapat 2 versi `branch` berbeda pada repository ini :
 - [Snapshot](https://github.com/ryuffhant/candycbt/tree/snapshot)
