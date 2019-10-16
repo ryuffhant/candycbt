@@ -146,30 +146,25 @@ Pemasangannya sederhana, untuk versi `snapshot` atau `nightly` cukup unduh paket
 
 Saat paket `ZIP` berhasil di unduh, `extract` semua konten didalamnya kemudian pindahkan hasil konten yang telah di `extract` kedalam folder `www` pada folder `laragon` lanjutkan dengan `start all` pada laragon dan cobalah akses [localhost](http://localhost) atau [localhost:8080](http://localhost:8080) pada browser.
 
->CandyCBT mendukung Apache, MySQL ataupun mariaDB versi terbaru. Versi stabil `MySQL` yakni `5.7.27` tersedia pula untuk binari windows, sedangkan `mariaDB` stabil berada di versi `10.4.8` dan `PHP` saat ini berada pada versi `7.3 VC15` berjalan pada server `Apache` versi `2.4.41 VS16` kompatibel dengan `VC15/VC14` untuk versi `PHP` pada sistem operasi windows.
+>CandyCBT mendukung Apache dan PHP terbaru. Versi stabil yang dapat digunakan `MySQL` yakni `5.6.45` tersedia pula untuk binari windows, sedangkan `mariaDB` stabil berada di versi `10.1.41` dan `PHP` terbaru saat ini berada pada versi `7.3 VC15` berjalan pada server `Apache` versi `2.4.41 VS16` kompatibel dengan `VC15/VC14` untuk versi `PHP` pada sistem operasi windows.
 
 ```
-Untuk MySQL versi 8.0.17 masih terdapat beberapa bugs
-sehingga butuh penangan khusus. Gunakan MySQL versi 8.0.15
-jika tetap ingin menggunakan MySQL versi 8.x
+Gunakan MySQL Versi 5.6.45 atau MariaDB 10.1.41
+agar candycbt berfungsi dengan optimal
+Untuk PHP & Apache dapat menggunakan versi terbaru
 ```
 
-[Download](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.15-winx64.zip) MySQL versi 8.0.15 untuk Windows x64
 #### Clone Git
-Instalasi `CandyCBT` dapat dilakukan dengan `clone repository` dengan spesifikasi tertentu. Terdapat 2 versi `branch` berbeda pada repository ini :
-- [Snapshot](https://github.com/ryuffhant/candycbt/tree/snapshot)
-- [Release Candidate](https://github.com/ryuffhant/candycbt/tree/rc)
+Instalasi `CandyCBT` dapat dilakukan dengan `clone repository` menggunakan `CMD` dengan syarat terinstall `git for windows`
 
-`PENTING UNTUK DIPAHAMI!!` branch `snapshot` hasil rebase dari `LaraCandy2.5` sedangkan untuk versi `Release Candidate` adalah `salinan` berdasar sumber [pajarsidikn](https://github.com/candycbt/tree/master) commit [688ab8d](https://github.com/pajarsidikn/candycbt/commit/688ab8d4d9656713ffc7bb894b684cf747799a8d) terakhir dari [toSheewaOgi](https://github.com/toSheewaOgi).
-
-Untuk instalasi CandyCBT dari `repository` ini dengan memilih salah satu `branch` yang tersedia adalah :
+Untuk instalasi CandyCBT dari melalui `repository` ini:
 - Windows
   - install [git](https://github.com/git-for-windows/git/releases/) pada windows
   - setelah instalasi selesai, buka `CMD` atau `Command Prompt`
   - arahkan pada direktori folder `www` dalam `xampp` atau `laragon`
   - masukan perintah
   ```console
-  git clone --single-branch --branch <nama_branch> <url_repo>
+  git clone https://github.com/ryuffhant/candycbt.git
   ```
 - Linux (debian family)
   - install paket `git` melalui `paket manejer` atau `bash terminal`
@@ -178,11 +173,9 @@ Untuk instalasi CandyCBT dari `repository` ini dengan memilih salah satu `branch
     ```
   - arahkan pada direktori `www` di linux, lalu masukan perintah
     ```sh
-    foo@bar:~$ git clone --single-branch --branch <nama_branch> <url_repo>
+    foo@bar:~$ git clone https://github.com/ryuffhant/candycbt.git
     ```
   - jika direktori `www` berada diluar direktori `$HOME` pengguna, tambahkan `sudo` saat proses cloning diatas
-
-Pada `<nama_branch>` tersebut diganti dengan nama branch yang tersedia di repository ini yaitu `snapshot` untuk branch *Snapshot* dan `rc` untuk *release candidate*, keduanya ditulis dalam huruf `kecil`. Untuk `<url_repo>` diganti dengan alamat repository yaitu `https://github.com/ryuffhant/candycbt.git`
 
 ---
 ## TROUBLESHOOTING
