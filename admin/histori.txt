@@ -1,0 +1,15 @@
+[Revisi 2]
+* Migrasi sistem php (dari 5 ke 7)
+* Penataan script candy
+* Perbaikan beberapa bug
+* ...
+
+[Revisi 3]
+* Penataan script candy
+* Penambahan fitur Backup Master Soal
+* Penambahan menu Informasi yang terdiri atas: [Info Sistem], [Histori]
+* Perbaikan script supaya tidak bisa diakses langsung
+* Revisi import siswa
+* Revisi logo aplikasi dan logo candy di halaman login admin
+* Optimasi script sql database
+* ...
