@@ -6,7 +6,7 @@ Informasi lebih lanjut, silahkan klik [tautan](http://cbtcandy.com/) berikut ini
 
 ---
 
-Proyek dipulihkan dari [Gitlab](https://gitlab.com/ryuffhant/candycbt.git) gunakan halaman
+Proyek dipulihkan dari [Gitlab](https://gitlab.com/ryuffhant/candycbt.git) gunakan
 - Halaman [Branch](https://github.com/ryuffhant/candycbt/branches) 
 - Halaman [Releases](https://github.com/ryuffhant/candycbt/releases)
 
