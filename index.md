@@ -6,8 +6,21 @@ Informasi lebih lanjut, silahkan klik [tautan](http://cbtcandy.com/) berikut ini
 
 ---
 
-### Proyek dipulihkan dari [Gitlab](https://gitlab.com/ryuffhant/candycbt.git) gunakan halaman [branch](https://github.com/ryuffhant/candycbt/branches) atau halaman [release](https://github.com/ryuffhant/candycbt/releases) untuk memilih versi tertentu.
+Proyek dipulihkan dari [Gitlab](https://gitlab.com/ryuffhant/candycbt.git) gunakan halaman
+- Halaman [Branch](https://github.com/ryuffhant/candycbt/branches) 
+- Halaman [Releases](https://github.com/ryuffhant/candycbt/releases)
 
+untuk memilih versi tertentu, atau pilih versi sesuai yang dibutuhkan
+
+- [Versi 2.2](https://github.com/ryuffhant/candycbt/tree/v2.2)
+- [Versi 2.3-r1](https://github.com/ryuffhant/candycbt/tree/v2.3-r1)
+- [Versi 2.3-r2](https://github.com/ryuffhant/candycbt/tree/v2.3-r2)
+- [Versi 2.4](https://github.com/ryuffhant/candycbt/tree/v2.4)
+- [Versi 2.5](https://github.com/ryuffhant/candycbt/tree/v2.5)
+- [Versi 2.5a](https://github.com/ryuffhant/candycbt/tree/v2.5a)
+- [Versi 2.5b](https://github.com/ryuffhant/candycbt/tree/v2.5b)
+- [Versi 2.7](https://github.com/ryuffhant/candycbt/tree/v2.7)
+- [Versi 2.8](https://github.com/ryuffhant/candycbt/tree/v2.8)
 
 ### Peringatan!
 ```
@@ -19,9 +32,10 @@ mungkin terdapat beberapa bugs tertentu pada paket rilis.
 ```
 
 ### Pengembangan lebih lanjut
+```
 Selain membutuhkan pengelolaan lebih lanjut, dibutuhkan pula kontribusi pengembangan lainnya.
 Bagi para pengembang yang tertarik untuk mengembangkan beberapa fitur yang belum optimal akan sangat membantu.
-
+```
 
 ---
 [![windows](https://img.shields.io/badge/Windows%2010%20for%20Workstation-blue?logo=windows)](https://www.microsoft.com/en-us/software-download/windows10) [![laragon](https://img.shields.io/badge/Powered-Laragon-blue?logo=webpack)](https://github.com/leokhoa/laragon/releases) [![github](https://img.shields.io/badge/Hosted-Github-green?logo=github)](https://github.com)
