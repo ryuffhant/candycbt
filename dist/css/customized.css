@@ -1,0 +1,65 @@
+.content-wrapper {
+	background:rgb(198,198,197) !important;
+}
+.content-wrapper .container {
+	width:95% !important;
+}
+.main-header .navbar-brand {
+	padding:5px !important;
+}
+.main-header .navbar .container {
+	width:100%;
+}
+.content-wrapper {
+	padding-top: 85px !important;
+}
+.box-solid .box-header {
+	background:rgb(238,238,237) !important;
+	*padding:16px !important;
+}
+.box-solid .box-header .box-title {
+	font-weight:bold !important;
+}
+.box.box-solid > .box-header .btn-primary:hover {
+	background: #357ca5 !important;
+}
+.box.box-solid > .box-header .btn-info:hover {
+	background: #00a7d0 !important;
+}
+.box.box-solid > .box-header .btn-default:hover {
+	background: #b5bbc8 !important;
+}
+
+.main-header {
+	background:rgb(44,100,152) !important;
+	height:82px;
+}
+.main-header .img-logo {
+	margin:10px;
+	margin-left:20px;
+	width:72px;
+	height:72px;
+}
+.main-header .sekolah-user {
+	height:82px;
+	width:360px;
+	color:#fff;
+	font-size:18px;
+	line-height:140%;
+	float:left;
+}
+.main-header .panel-user {
+	background:rgb(51,51,51);
+	height:82px;
+	width:285px;
+	padding:15px;
+	float:right;
+	color:#fff;
+	font-size:12px;
+	line-height:140%;
+}
+.main-header .panel-user img {
+	width:50px;
+	float:left;
+	margin-right:10px;
+}
