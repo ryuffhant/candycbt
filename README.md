@@ -8,8 +8,6 @@
 ### <div align="center">Silahkan kunjungi [halaman](https://ryuffhant.github.io/candycbt) depan dari proyek ini</div>
 
 ---
-<p align="center>
-<img src="https://img.shields.io/badge/Windows%2010%20for%20Workstation-blue?logo=windows">
-<img src="https://img.shields.io/badge/Powered-Laragon-blue?logo=webpack">
-<img src="https://img.shields.io/badge/Hosted-Github-gree?logo=github">
+<p align="center">
+<img src="https://img.shields.io/badge/Hosted-Github-green?logo=github">
 </p>
