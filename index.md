@@ -41,4 +41,4 @@ yang belum optimal akan sangat membantu.
 ```
 
 ---
-[![windows](https://img.shields.io/badge/Windows%2010%20for%20Workstation-blue?logo=windows)](https://www.microsoft.com/en-us/software-download/windows10) [![laragon](https://img.shields.io/badge/Powered-Laragon-blue?logo=webpack)](https://github.com/leokhoa/laragon/releases) [![github](https://img.shields.io/badge/Hosted-Github-green?logo=github)](https://github.com)
+[![windows](https://img.shields.io/badge/Windows%2010%20for%20Workstation-blue?logo=windows)](https://www.microsoft.com/en-us/software-download/windows10) [![laragon](https://img.shields.io/badge/Powered-Laragon-blue?logo=webpack)](https://github.com/leokhoa/laragon/releases) [![github](https://img.shields.io/badge/Hosted-Github-green?logo=github)](https://github.com) [![php](https://img.shields.io/badge/Powered-php-violet?logo=php)](https://php.net) [![mysql](https://img.shields.io/badge/Powered-MySQL-yellow?logo=mysql)](https://mysql.com) [![github](https://img.shields.io/badge/Powered-Apache-red?logo=apache)](https://apache.org)
