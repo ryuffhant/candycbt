@@ -3,4 +3,4 @@
 <h2 align="center">We’re working hard to make this repository available again.</h2>
 </p>
 
-## <div align="center"> [![github](https://img.shields.io/badge/Hosted-Github-green?logo=github)](https://github) </div>
+## <div align="center"> [![github](https://img.shields.io/badge/Hosted-Github-green?logo=github)](https://ryuffhant.github.io/candycbt) </div>
