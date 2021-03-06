@@ -7,7 +7,7 @@ Informasi lebih lanjut, silahkan klik [tautan](http://cbtcandy.com/) berikut ini
 ---
 
 Proyek dipulihkan dari [Gitlab](https://gitlab.com/ryuffhant/candycbt.git) gunakan
-- Halaman [Branch](https://github.com/ryuffhant/candycbt/branches) 
+- Halaman [Branch](https://github.com/ryuffhant/candycbt/branches/all)
 - Halaman [Releases](https://github.com/ryuffhant/candycbt/releases)
 
 Daftar versi CandyCBT yang tersedia
@@ -33,7 +33,9 @@ mungkin terdapat beberapa bugs tertentu pada paket rilis.
 
 ### Pengembangan lebih lanjut
 ```
-Selain membutuhkan pengelolaan lebih lanjut, dibutuhkan pula kontribusi pengembangan lainnya.
+Selain membutuhkan pengelolaan lebih lanjut, dibutuhkan pula kontribusi
+pengembangan lainnya.
+
 Bagi para pengembang yang tertarik untuk mengembangkan beberapa fitur
 yang belum optimal akan sangat membantu.
 ```
