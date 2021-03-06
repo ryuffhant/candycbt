@@ -10,7 +10,7 @@ Proyek dipulihkan dari [Gitlab](https://gitlab.com/ryuffhant/candycbt.git) gunak
 - Halaman [Branch](https://github.com/ryuffhant/candycbt/branches) 
 - Halaman [Releases](https://github.com/ryuffhant/candycbt/releases)
 
-untuk memilih versi tertentu, atau pilih versi sesuai yang dibutuhkan
+Daftar versi CandyCBT yang tersedia
 
 - [Versi 2.2](https://github.com/ryuffhant/candycbt/tree/v2.2)
 - [Versi 2.3-r1](https://github.com/ryuffhant/candycbt/tree/v2.3-r1)
@@ -34,7 +34,8 @@ mungkin terdapat beberapa bugs tertentu pada paket rilis.
 ### Pengembangan lebih lanjut
 ```
 Selain membutuhkan pengelolaan lebih lanjut, dibutuhkan pula kontribusi pengembangan lainnya.
-Bagi para pengembang yang tertarik untuk mengembangkan beberapa fitur yang belum optimal akan sangat membantu.
+Bagi para pengembang yang tertarik untuk mengembangkan beberapa fitur
+yang belum optimal akan sangat membantu.
 ```
 
 ---
