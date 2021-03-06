@@ -1,18 +1,15 @@
-### Peringatan!
-```
-Mungkin masih terdapat beberapa bugs dibeberapa versi tertentu
-biasanya diakibatkan kompabilitas versi apache atau mariadb/mysql yang digunakan.
+# <div align="center">Ooops!!</div>
+## <div align="center">Halaman yang anda tuju tidak dapat ditemukan!</div>
 
-Perlu diperhatikan, halaman rilis dan paket rilis tidak seutuhnya stabil,
-mungkin terdapat beberapa bugs tertentu pada paket rilis.
-```
+<p align="center">
+<img src="https://user-images.githubusercontent.com/15860158/110195848-cb78df80-7e72-11eb-920c-7f04c2f31979.png">
+</p>
 
-### Diperlukan pengembangan lebih lanjut!
-```
-Selain membutuhkan pengelolaan lebih lanjut, dibutuhkan pula kontribusi pengembangan lainnya.
-Bagi para pengembang yang tertarik untuk mengembangkan beberapa fitur yang belum optimal akan sangat membantu.
-```
-
+### <div align="center">Silahkan kunjungi [halaman](https://ryuffhant.github.io/candycbt) depan dari proyek ini</div>
 
 ---
-[![windows](https://img.shields.io/badge/Windows%2010%20for%20Workstation-blue?logo=windows)](https://www.microsoft.com/en-us/software-download/windows10) [![laragon](https://img.shields.io/badge/Powered-Laragon-blue?logo=webpack)](https://github.com/leokhoa/laragon/releases) [![github](https://img.shields.io/badge/Hosted-Github-gree?logo=github)](https://github.com)
+<p align="center>
+<img src="https://img.shields.io/badge/Windows%2010%20for%20Workstation-blue?logo=windows">
+<img src="https://img.shields.io/badge/Powered-Laragon-blue?logo=webpack">
+<img src="https://img.shields.io/badge/Hosted-Github-gree?logo=github">
+</p>
