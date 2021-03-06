@@ -1,7 +1,7 @@
 # <div align="center">Ooops!!</div>
 
 <p align="center">
-<img src="https://pngimg.com/uploads/under_construction/under_construction_PNG66.png" width="600" height="600">
+<img src="https://pngimg.com/uploads/under_construction/under_construction_PNG66.png" width="500" height="500">
 </p>
 
 ### <div align="center">Silahkan kunjungi [halaman](https://ryuffhant.github.io/candycbt) depan dari proyek ini</div>
