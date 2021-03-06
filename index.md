@@ -6,10 +6,6 @@ Informasi lebih lanjut, silahkan klik [tautan](http://cbtcandy.com/) berikut ini
 
 ---
 
-Proyek dipulihkan dari [Gitlab](https://gitlab.com/ryuffhant/candycbt.git) gunakan
-- Halaman [Branch](https://github.com/ryuffhant/candycbt/branches/all)
-- Halaman [Releases](https://github.com/ryuffhant/candycbt/releases)
-
 Daftar versi CandyCBT yang tersedia
 
 - [Versi 2.2](https://github.com/ryuffhant/candycbt/tree/v2.2)
@@ -41,4 +37,6 @@ yang belum optimal akan sangat membantu.
 ```
 
 ---
-[![windows](https://img.shields.io/badge/Windows%2010%20for%20Workstation-blue?logo=windows)](https://www.microsoft.com/en-us/software-download/windows10) [![laragon](https://img.shields.io/badge/Powered-Laragon-blue?logo=webpack)](https://github.com/leokhoa/laragon/releases) [![github](https://img.shields.io/badge/Hosted-Github-green?logo=github)](https://github.com) [![php](https://img.shields.io/badge/Powered-php-violet?logo=php)](https://php.net) [![mysql](https://img.shields.io/badge/Powered-MySQL-yellow?logo=mysql)](https://mysql.com) [![github](https://img.shields.io/badge/Powered-Apache-red?logo=apache)](https://apache.org)
+<p align="center">
+<a href="https://ryuffhant.github.io/candycbt"><img src="https://img.shields.io/badge/Hosted%20on-Github-green?logo=github" width="150"></a>
+</p>
